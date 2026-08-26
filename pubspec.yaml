@@ -1,0 +1,52 @@
+name: expense_flow
+description: "A high-performance, offline-first Expense Tracker with interactive analytics, customizable theme engine, biometric lock, and PDF/CSV export."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Offline SQLite Database & Storage
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+
+  # Interactive 60fps Analytics & Formatting
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+
+  # Theme Customizer
+  flutter_colorpicker: ^1.1.0
+
+  # Biometric Security Gate
+  local_auth: ^2.2.0
+
+  # Reporting & Export
+  csv: ^6.0.0
+  pdf: ^3.10.8
+  printing: ^5.13.1
+  share_plus: ^9.0.0
+  path_provider: ^2.1.3
+
+  # UI, Icons & Animations
+  lottie: ^3.1.2
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lottie/
